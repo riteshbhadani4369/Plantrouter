@@ -1,0 +1,104 @@
+.contact {
+    border-top: 1px solid #ddd;
+    margin-bottom: 100px;
+}
+
+.contact_text {
+    margin-top: 100px;
+    width: 50%;
+    padding-right: 96px;
+    border-right: 1px solid #ddd;
+}
+
+.contact_text h1 {
+    font-size: 72px;
+    font-weight: 500;
+}
+
+.contact_text p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #7A7A7A;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.visit_us i {
+    font-size: 16px;
+    margin-right: 20px;
+    color: #5c9735;
+}
+
+.visit_us1 h5 {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 20px;
+    color: #585b53;
+    font-weight: 500;
+}
+
+.visit_us1 p {
+    margin: 0;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.contact_form {
+    width: 50%;
+    margin-top: 100px;
+    padding-left: 96px;
+    padding-top: 24px;
+}
+
+.contact_form h3 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact_form form table tr td label {
+    margin: 20px 0;
+}
+.message tr td 
+{
+    margin: 10px 0;
+}
+.message tr td input {
+    padding: 12px;
+    border: 1px solid #eaeaea;
+    width: 450px;
+    background-color: #FAFAFA;
+}
+::placeholder
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+textarea::placeholder
+{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.message tr td textarea
+{
+    border: 1px solid #eaeaea;
+    width: 470px;
+    height: 100px;
+    padding: 12px;
+    background-color: #FAFAFA;
+}
+.message tr td button
+{
+    background-color: #5c9735;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    transition: 0.5s;
+}
+.message tr td button:hover
+{
+    background-color: #000000;
+}

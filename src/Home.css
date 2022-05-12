@@ -1,0 +1,324 @@
+/*----------------------------------------------------------------------------------------------------------------
+                                                        default css
+----------------------------------------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@300;700&family=Lobster&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300;400;500;600;700;800;900&family=Unna:wght@400;700&display=swap');
+
+body {
+    font-family: 'Unna', serif;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+.align_item_center {
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                    Header
+-------------------------------------------------------------------------------------------------------------------*/
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero-section-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.logo img {
+    width: 150px;
+    height: 50px;
+}
+
+.main_menu li {
+    line-height: 96px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    font-style: inherit;
+    letter-spacing: 1.5px;
+}
+
+.main_menu li a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+}
+
+.main_menu li a i {
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.info h6 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    font-family: 'Unna', serif;
+    line-height: 1.7;
+    margin-top: 70px !important;
+    color: white;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h1 {
+    letter-spacing: 2px;
+    font-size: 4.5rem;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px !important;
+    margin-bottom: 50px !important;
+    color: white;
+
+}
+
+.info button {
+    background-color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-bottom: 150px;
+    font-size: 15px;
+}
+
+.info button a {
+    color: black;
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------
+                                                                  Plants
+  -------------------------------------------------------------------------------------------------------------------*/
+.plant {
+    padding: 104px 40px 40px;
+}
+
+.plant h2 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.plant button {
+    border: none;
+    font-size: 14px;
+    background-color: #5c9735;
+    padding: 15px 30px;
+    margin-right: 20px;
+}
+
+.plant button a {
+    color: white;
+}
+
+.shop_plant {
+    margin: auto;
+}
+
+.plant_img img {
+    width: 380px;
+    height: auto;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+.plant_img h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #141a0f;
+    font-weight: 500;
+}
+
+.plant_img h4 {
+    margin: 10px 0 30px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.our_story_img img {
+    width: 670px;
+    height: auto;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.our_Story_text {
+    padding: 120px 60px 120px 80px;
+}
+
+.our_Story_text h6 {
+    color: #585b53;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.our_Story_text h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.our_Story_text p {
+    font-family: inherit !important;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    color: #585b53;
+    text-align: justify;
+    width: 85%;
+    line-height: 20px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.our_Story_text button {
+    padding: 15px 30px;
+    border: none;
+    background-color: #5c9735;
+    color: white;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.our_Story_text button:hover {
+    background-color: black;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                                        Customer
+  -------------------------------------------------------------------------------------------------------------------*/
+.customer {
+    padding: 104px 40px;
+    text-align: center;
+}
+
+.customer h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.customer h6 {
+    width: 60px;
+    height: 1px;
+    background-color: #585b53;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.cus_del {
+    padding: 0 25px;
+}
+
+.cus_del i {
+    font-size: 40px;
+    color: #b4b6b3;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.cus_del h4 {
+    color: #141a0f;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px !important;
+    width: 88%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.cus_del img {
+    border-radius: 20px;
+}
+
+.cus_del p {
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    color: #585b53;
+    font-weight: 500;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------
+                                                    Footer
+  -------------------------------------------------------------------------------------------------------------------*/
+.main_menu li {
+    line-height: 96px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    font-style: inherit;
+    letter-spacing: 1.5px;
+}
+
+.main_menu li a {
+    display: block;
+    padding: 0 20px;
+}
+
+.footer {
+    background-color: #141a0f;
+    padding: 80px 80px 40px;
+}
+
+.nm {
+    margin-top: 50px;
+}
+
+.copy p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.copy_icon a i {
+    color: rgba(255, 255, 255, 0.64);
+    padding: 10px;
+}
